@@ -19,4 +19,9 @@ internal class DemoClass : IDemoInterface
 
     public int PublicMethod() =>
         _privateProperty;
+
+    public void UnusedMethod()
+    {
+        Int32 BAD_VARIABLE_NAME = new Int32(1);
+    }
 }
